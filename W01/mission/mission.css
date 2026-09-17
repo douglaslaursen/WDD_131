@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body{
+    text-align: left;
+    font-size: 1.5em;
+}
+
+#into p{
+    font-family: 'Newsreader'; 
+    font-size: 2em;
+    margin-top: 15px;
+    margin-bottom: -10px;
+    border: 5px;
+    text-align: center;
+}
+
+#school p{
+    color: rgb(62, 119, 139);
+    width: 100%; border-bottom: 1px solid black;
+    border-bottom: -20px;
+    text-align: center;
+}
+
+#content {
+    max-width: 50%;
+    border: 1px solid darkgray;
+    margin: 40px auto;
+    padding: 50px;
+}
+
+li {
+    margin: 5px;
+}
+
+img {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
