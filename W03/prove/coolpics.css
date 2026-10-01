@@ -1,0 +1,125 @@
+/* General styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(218, 218, 218);
+}
+
+/* Header */
+header {
+    width: 100%;
+    background-color: rgb(58, 125, 220);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+/* Navigation. Needed some extra help with getting the nav to work*/
+nav {
+    background-color: rgb(58, 125, 220);
+    padding: 10px;
+}
+
+nav input {
+    display: none;
+}
+
+nav label {
+    display: block;
+    cursor: pointer;
+}
+
+.links {
+    display: none;
+}
+
+nav input:checked ~ .links {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* Main content */
+#pics {
+    width: 100%;
+    text-align: center;
+    flex: 1;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 10px;
+}
+
+/* Picture gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.gallery img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 4px solid white;
+    filter: drop-shadow(8px 8px 16px black);
+    margin: 5%;
+}
+
+/* Footer */
+#footer {
+    width: 100%;
+    background-color: rgb(58, 125, 220);
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* Tablet */
+@media screen and (min-width: 600px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1000px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    nav label {
+        display: none;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+}
