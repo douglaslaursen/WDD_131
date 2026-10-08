@@ -1,13 +1,3 @@
-// Getting the Menu Button to work
-let menuButton = document.querySelector('.menu-toggle');
-
-menuButton.addEventListener("click", (event) => {
-    let nav = document.querySelector('nav');
-    nav.style.display = nav.style.display === '' ? 'flex' : '';    
-});
-
-
-// Getting the Modal to work
 //1. Grab our HTML elemts
 let gallerySection = document.querySelector('.gallery');
 let modal = document.querySelector('dialog');

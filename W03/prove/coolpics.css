@@ -12,6 +12,12 @@ body {
     background-color: rgb(218, 218, 218);
 }
 
+dialog img {
+    width: 90%;
+    display: block;
+    margin: 20vh auto;
+}
+
 /* Header */
 header {
     width: 100%;
