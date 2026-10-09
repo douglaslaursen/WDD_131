@@ -1,5 +1,5 @@
 // Getting the Menu Button to work
-let menuButton = document.querySelector('.menu-toggle');
+let menuButton = document.querySelector('#menu-toggle');
 
 menuButton.addEventListener("click", (event) => {
     let nav = document.querySelector('nav');
