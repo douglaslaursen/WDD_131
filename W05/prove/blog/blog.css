@@ -13,21 +13,17 @@ header h1 {
     border-bottom: 2px solid rgb(241, 194, 64);
 }
 
-#nav {
+.links {
     margin-top: 15px;
     text-align: right;
     border-bottom: 2px solid rgb(241, 194, 64);
 }
 
-#nav a {
+.links a {
     color: rgb(183, 32, 32);
     padding: 20px;
     font-size: 1.5em;
     text-decoration: none;
-}
-
-.links {
-    margin-bottom: 15px;
 }
 
 /* Main content */
