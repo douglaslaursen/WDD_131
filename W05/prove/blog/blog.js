@@ -42,7 +42,21 @@ const articles = [
 
     articles.forEach(article => {
         //Code for going through each article and creating content for that article
-        
+        let blog = `
+            <div class="rating">
+            <i>${article.date}</i>
+            <p>${article.ages}</p>
+            <p>${article.genre}</p>
+            <p>${article.stars}</p>
+            </div>
+            <div class="book">
+            <h1>${article.title}</h1>
+            <img src="${article.imgSrc}" 
+                alt="${article.imgAlt}">
+            <p>${article.description}If you enjoy stories about seventh sons of seventh sons and magyk this is the book for you.</p>
+            </div>
+        `;
+        document.getElementById('movie-list').innerHTML += blog;
     })
                 
 
