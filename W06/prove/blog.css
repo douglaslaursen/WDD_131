@@ -33,8 +33,6 @@ header h1 {
     grid-template-columns: 1fr 3fr;
     gap: 20px;
     margin-bottom: 30px;
-    color: brown;
-    border: 2px solid brown;
 }
 
 .rating {
@@ -87,7 +85,7 @@ header h1 {
 
 /*Larger Device*/
 @media screen and (min-width: 1000px){
-    #blog {
+    .book-card {
         display: grid;
         grid-template-columns: 300px 1fr;
     }
