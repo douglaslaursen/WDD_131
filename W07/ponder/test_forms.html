@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Plaground</title>
+</head>
+<body>
+    <form action=""> <!--Great for excessibility -->
+        <label for="ssn"> Enter your social security number </label>
+        <input type="text" id="ssn" placeholder="111-11-1111" name="ssn" required maxlength="9" minlength="9" >
+        <input type="search" name="search">
+        <input type="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+        <input type="tel" name="tel">
+        <input type="color" name="color">
+        <input type="file">
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>
