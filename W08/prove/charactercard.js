@@ -65,3 +65,5 @@ document.querySelector("#level-up").addEventListener("click", function () {
 document.querySelector("#restart").addEventListener("click", function(){
     character.restart();
 });
+
+// test push
