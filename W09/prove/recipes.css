@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* General styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: Amatic SC;
+}
+
+.logo-title img {
+    width: 70px;
+}
+
+.logo-title h1 {
+    font-size: 5em;
+    margin: 5px;
+}
+
+/* Search bar */
+.search {
+    display: flex;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 15px;
+}
+
+.search input {
+    flex: 1;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.search button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 25px;
+}
+
+/* Main recipe */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 15px;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 15px;
+    gap: 20px;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+}
+
+.recipe-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.recipe-info h2 {
+    margin: 5px 0;
+    color: #333;
+    font-family: Amatic SC;
+    color: rgb(68, 182, 253);
+    font-size: 5em;
+}
+
+.rating {
+    margin: 10px 0;
+}
+
+.icon-star {
+    color: #f5a623;
+}
+
+.icon-star-empty {
+    color: #ccc;
+}
+
+.description {
+    display: none;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 25px;
+    border-top: 2px solid #ddd;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social img {
+    width: 35px;
+    height: 35px;
+}
+
+/* Desktop */
+@media screen and (min-width: 1000px) {
+
+    .tag {
+        background-color: #eeeeee;
+        border: 1px solid #888;
+        border-radius: 5px;
+        padding: 6px 15px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .recipe {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .recipe-image {
+        width: 50%;
+    }
+
+    .description {
+        display: block;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 25px 40px;
+    }
+
+}
