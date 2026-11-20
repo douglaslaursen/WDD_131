@@ -371,6 +371,7 @@ function searchRecipes(event) {
 
     // 1. Grab the search input
     const userInput = searchInput.value.toLowerCase().trim();
+	const keywords = userInput.split(/\s+/).filter(word => word);
 
     // 2. Find recipes and display
     const matchingRecipes = recipes.filter(recipe => {
