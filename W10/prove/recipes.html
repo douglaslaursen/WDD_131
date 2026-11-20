@@ -25,6 +25,7 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
                 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="recipes.js" defer></script>
     <link rel="stylesheet" href="recipes.css">
     <title>Recipes</title>
 </head>
@@ -35,39 +36,19 @@
             <h1>RecipeBook</h1>
         </div>
 
-        <form class="search">
-            <input type="search" placeholder="Find a recipe">
+        <form class="search" id="search-form">
+            <input type="search" id="search-input" placeholder="Find a recipe">
+            
             <button type="submit" aria-label="Search">
-                <img src="images/search.svg" alt="search">
+                <img src="images/search.svg" alt="">
             </button>
         </form>
     </header>
 
     <main>    
-        <section class="recipe">
-            <img class="recipe-image" src="images/apple-crisp.jpg" alt="apple crisp">  
-
-            <div class="recipe-info">
-                <button class="tag" type="button">Dessert</button>
-                <h2>Apple Crisp</h2>
-
-                <span
-                class="rating"
-                role="img"
-                aria-label="Rating: 4 out of 5 stars">
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star">⭐</span>
-                <span aria-hidden="true" class="icon-star-empty">☆</span>
-                </span>
-
-                <p class="description">
-                    This apple crisp recipe is supper yummy but difficulty to make 
-                    the difficulty level drops down a star. 
-                </p>
-            </div>    
-        </section> 
+        <div id="recipe-container">
+            <!-- The java script has the display -->
+        </div>
     </main>
     <footer>
         <div class="social">

@@ -110,6 +110,21 @@ main {
     display: none;
 }
 
+/* Recipe results */
+#recipe-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recipe {
+    width: 100%;
+}
+
+.recipe-info {
+    flex: 1;
+}
+
 /* Footer */
 footer {
     display: flex;
