@@ -1,0 +1,82 @@
+.internships-section {
+  padding: 50px 60px;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.internships-section h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.internships-section hr {
+  border: none;
+  border-top: 3px solid #2596BE;
+  width: 80px;
+  margin: 0 auto 50px;
+  border-radius: 2px;
+}
+
+/* Each block of the internship opporutnity stuff */
+.internship-block {
+  display: flex;
+  gap: 45px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  align-items: flex-start;
+  border-bottom: 1px solid #ebebeb;
+}
+
+/* learned the last child from 23, it helps the headache lol */
+.internship-block:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.internship-block p {
+  font-size: 0.93rem;
+  line-height: 1.7;
+  color: #737575;
+  margin-bottom: 10px;
+}
+.internship-block h2 {
+  font-size: 1.15rem;
+  text-transform: uppercase;
+  color: #226E7E;
+  margin-bottom: 16px;
+  letter-spacing: 0.06em;
+}
+
+.internship-block ul, .internship-block ol {
+  padding-left: 22px;
+}
+
+.internship-block li {
+  font-size: 0.93rem;
+  line-height: 1.9;
+  color: #737575;
+}
+
+.internship-block strong {
+  color: #333333;
+}
+
+/* puts flex for both the blocks and the text */
+.internship-block .text-content {
+  flex: 1;
+}
+
+.internship-block .image-content {
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
+/* makes the images look more integrated and better */
+.internship-block .image-content img {
+  width: 260px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.12);
+}

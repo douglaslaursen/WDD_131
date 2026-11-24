@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Architects Daughter', cursive;
+  background-color: #FFFFFF;
+  color: #333333;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: Georgia, serif;
+  color: #226E7E;
+  letter-spacing: 0.01em;
+}
+
+a {
+  color: #2596BE;
+}
+
+a:hover {
+  color: #226E7E;
+}
+
+header {
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #e0e0e0;
+  padding: 14px 50px;
+  top: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333333;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.3rem;
+}
+
+header nav a:hover {
+  color: #2596BE;
+}
+
+/* rsvp button */
+header nav a:last-child {
+  background-color: #226E7E;
+  color: #FFFFFF;
+  padding: 9px 22px;
+  border-radius: 5px;
+  margin-left: auto;
+  letter-spacing: 0.03em;
+  box-shadow: 0 2px 6px rgba(34,110,126,0.25);
+}
+
+header nav a:last-child:hover {
+  background-color: #2596BE;
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(34, 141, 180, 0.35);
+}
+
+button {
+  background-color: #226E7E;
+  color: #FFFFFF;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1rem;
+  padding: 11px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  box-shadow: 0 2px 6px rgba(34,110,126,0.25);
+}
+
+button:hover {
+  background-color: #2596BE;
+  box-shadow: 0 4px 12px rgba(37,150,190,0.35);
+}
+
+footer {
+  background-color: #f7f7f7;
+  border-top: 2px solid #e0e0e0;
+  padding: 36px 50px 18px;
+  margin-top: 70px;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer nav {
+  display: flex;
+  gap: 24px;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+footer nav a:hover {
+  color: #2596BE;
+}
+
+footer div div {
+  display: flex;
+  gap: 18px;
+}
+
+footer div div a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+footer div div a:hover {
+  color: #2596BE;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.78rem;
+  color: #A1A0A0;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid #e0e0e0;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  display: block;
+}

@@ -1,0 +1,82 @@
+.events-hero {
+  background-color: #A1A0A0;
+  padding: 50px 40px;
+  text-align: center;
+}
+
+.events-hero p {
+  font-weight: bold;
+  line-height: 1.75;
+  max-width: 600px;
+  margin: 0 auto 28px;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.events-hero img {
+  width: 100%;
+  max-width: 700px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.2);
+}
+
+/* community section stuff*/
+.community {
+  padding: 60px 50px;
+}
+
+.community div {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.community p {
+  font-size: 0.93rem;
+  line-height: 1.85;
+  color: #737575;
+}
+
+.community img {
+  width: 320px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+  flex-shrink: 0;
+}
+
+/*  Weekly Meetings Section and stuff */
+.weekly {
+  padding: 60px 50px;
+  background-color: #f4f8f9;
+  border-top: 1px solid #e4eef0;
+  border-bottom: 1px solid #e4eef0;
+}
+
+.weekly img {
+  width: 320px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+  flex-shrink: 0;
+}
+.weekly div {
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.weekly p {
+  font-size: 0.93rem;
+  line-height: 1.85;
+  color: #737575;
+  margin-bottom: 18px;
+}

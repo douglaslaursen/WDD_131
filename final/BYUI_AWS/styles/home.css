@@ -1,0 +1,109 @@
+/* btw this is just for index page */
+.hero {
+  text-align: center;
+  background-color: #A1A0A0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.hero img {
+  /* sadly the hero image is relatively low resolution, preventing maximum clairty. */
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* What is AWS Section */
+.what-is-aws {
+  padding: 60px 50px;
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.what-is-aws h2 {
+  font-size: 1.9rem;
+  margin-bottom: 32px;
+}
+
+.card-grid {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  text-align: left;
+}
+
+.card {
+  flex: 1;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #ebebeb;
+}
+
+.card:hover {
+  /*asked ai for better hover ideas becasue first draft looked lameeee*/
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 14px;
+  border-radius: 5px;
+}
+
+.card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.88rem;
+  line-height: 1.7;
+  color: #737575;
+}
+
+/*  Two Column Sections stuff */
+.two-col {
+  padding: 60px 50px;
+}
+
+.two-col.shaded {
+  background-color: #f4f8f9;
+  border-top: 1px solid #e4eef0;
+  border-bottom: 1px solid #e4eef0;
+}
+
+.two-col div {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.two-col h2 {
+  font-size: 1.7rem;
+  margin-bottom: 16px;
+}
+
+
+.two-col img {
+  width: 340px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.12);
+  flex-shrink: 0;
+}
+
+.two-col p {
+  font-size: 0.93rem;
+  line-height: 1.85;
+  color: #737575;
+  margin-top: 16px;
+}
+
+
